@@ -6,8 +6,8 @@ The aim of this project is to develop a model that uses ML Algorithms to accurat
 ## Dataset
 The dataset used for this project is a labelled data.The shape of the Dataset is (5572, 2).<br>
 Data Dictionary:<br>
-Category ----> type(Categorical) ----> Label indicating whether the message is 'ham' (not spam) or 'spam'.<br>
-Message ----> type(Text) ----> The content of the SMS message.
+Category ----> Label indicating whether the message is 'ham' (not spam) or 'spam'.<br>
+Message ----> The content of the SMS message.
 ## Methodology
 1. Data Collection: Obtain a labelled dataset containing emails classified as "spam" and "ham" (non-spam) from Kaggle.
 2. Data Preprocessing: Clean and preprocess the text data by removing any irrelevant information such as special characters, stop words, and converting text to lowercase to standardize it. TfidfVectorizer to convert the text data into numerical features that can be used by the machine learning model. The TF-IDF vectorizer transforms the text into feature vectors representing the importance of each word in the context of the dataset. Encode the labels where "ham" is encoded as 0 and "spam" is encoded as 1 using LabelEncoding.
