@@ -4,9 +4,9 @@
 In today's world, email is a key method of communication for personal, business, corporate, and government purposes. With the rise in email usage, there has been a notable increase in spam emails. These spam emails, also known as junk emails, are mass-sent messages that can be both annoying and pose security risks to computer systems.
 The aim of this project is to develop a model that uses ML Algorithms to accurately predict the spam emails.
 ## Dataset
-The dataset used for this project is a labelled data.The shape of the Dataset is (5572, 2).
-Data Dictionary:
-Category ----> type(Categorical) ----> Label indicating whether the message is 'ham' (not spam) or 'spam'.
+The dataset used for this project is a labelled data.The shape of the Dataset is (5572, 2).<br>
+Data Dictionary:<br>
+Category ----> type(Categorical) ----> Label indicating whether the message is 'ham' (not spam) or 'spam'.<br>
 Message ----> type(Text) ----> The content of the SMS message.
 ## Methodology
 1. Data Collection: Obtain a labelled dataset containing emails classified as "spam" and "ham" (non-spam) from Kaggle.
@@ -18,9 +18,9 @@ Message ----> type(Text) ----> The content of the SMS message.
 8. Model Deployment: Using Streamlit Application
 
 ## Results
----> Logistic Regression 
-Accuracy on training data :  0.9676912721561588
-Accuracy on test data :  0.9668161434977578
----> KNN
-Accuracy on training data: 0.9201256450527261
-Accuracy on test data: 0.9094170403587444
+Logistic Regression <br>
+Accuracy on training data :  0.9676912721561588<br>
+Accuracy on test data :  0.9668161434977578<br>
+KNN<br>
+Accuracy on training data: 0.9201256450527261<br>
+Accuracy on test data: 0.9094170403587444<br>
